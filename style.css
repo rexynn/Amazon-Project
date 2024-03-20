@@ -92,7 +92,7 @@
     background-color: #febd68;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    border:none;
+    border: none;
     color: #0f1111;
 }
 
@@ -195,6 +195,8 @@ span {
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 .box-img {
@@ -211,6 +213,11 @@ span {
 
 .box-contant p {
     color: #007185;
+}
+
+.box:hover {
+    transform: scale(1.03);
+    border-radius: 5px;
 }
 
 
